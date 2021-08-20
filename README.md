@@ -7,9 +7,9 @@
 
 ## Preview
 
-| ![Azaleabook Light](preview/AzaleaBook-Theme-1.webp) | ![Azaleabook Dark](preview/AzaleaBook-Theme-2.webp) |
-| :---: | :--: |
 | Light | Dark |
+| :---: | :--: |
+| ![Azaleabook Light](preview/AzaleaBook-Theme-1.webp) | ![Azaleabook Dark](preview/AzaleaBook-Theme-2.webp) |
 
 ## Usage
 
