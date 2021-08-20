@@ -1,0 +1,123 @@
+
+/* Globals */
+
+/*
+ * Azalea Book - https://github.com/IrvanAhmadP/mdbook-azalea-book
+ * Theme for mdbook
+ *
+ * @author Irvan Ahmad P. - https://github.com/IrvanAhmadP
+ */
+
+:root {
+    --sidebar-width: 300px;
+    --page-padding: 15px;
+    --content-max-width: 750px;
+    --menu-bar-height: 50px;
+    --font-size-sm: 1.4rem;
+    --font-size-base: 1.6rem;
+    --font-size-lg: 1.8rem;
+}
+
+/* Themes */
+
+/* Reference colors: https://tailwindcss.com/docs/customizing-colors */
+
+.azaleabook-light {
+    --bg: hsl(0, 0%, 100%);
+    --fg: hsl(0, 0%, 0%);
+
+    --sidebar-bg:#ddd;
+    --sidebar-fg: #111;
+    --sidebar-non-existant: #aaaaaa;
+    --sidebar-hover: #ccc;
+    --sidebar-active: #fff;
+    --sidebar-border: transparent;
+    --sidebar-border-active: #ccc;
+    --sidebar-text-active: #000;
+    --sidebar-spacer: #f4f4f4;
+    --sidebar-group: #555;
+
+    --scrollbar: #8F8F8F;
+
+    --icons: #374151;
+    --icons-hover: #1F2937;
+
+    --links: #20609f;
+
+    --inline-code-color: #301900;
+
+    --theme-popup-bg: #fafafa;
+    --theme-popup-border: #cccccc;
+    --theme-hover: #e6e6e6;
+
+    --quote-bg: hsl(197, 37%, 96%);
+    --quote-border: hsl(197, 37%, 91%);
+
+    --table-border-color:#ccc;
+    --table-header-bg:#ddd;
+    --table-alternate-bg: #eee;
+
+    --searchbar-border-color: #aaa;
+    --searchbar-bg: #fafafa;
+    --searchbar-fg: #000;
+    --searchbar-shadow-color: #aaa;
+    --searchresults-header-fg: #666;
+    --searchresults-border-color: #888;
+    --searchresults-li-bg: #e4f2fe;
+    --search-mark-bg: #a2cff5;
+
+    /* pre code */
+    --code-btn-bg: #fff;
+    --code-btn-color: #111;
+    --code-btn-color-hover: #000;
+}
+
+.azaleabook-dark {
+    --bg: #333333;
+    --fg: #eee;
+
+    --sidebar-bg: #222;
+    --sidebar-fg: #eee;
+    --sidebar-non-existant: #505274;
+    --sidebar-hover: #333;
+    --sidebar-active: #444;
+    --sidebar-border: transparent;
+    --sidebar-border-active: #111;
+    --sidebar-text-active: #fff;
+    --sidebar-spacer: #2d334f;
+    --sidebar-group: #999;
+
+    --scrollbar: var(--sidebar-fg);
+
+    --icons: #F3F4F6;
+    --icons-hover: #F9FAFB;
+
+    --links: #93C5FD;
+
+    --inline-code-color: #c5c8c6;;
+
+    --theme-popup-bg: #272727;
+    --theme-popup-border: #555;
+    --theme-hover: #2c2c2c;
+
+    --quote-bg: hsl(226, 15%, 17%);
+    --quote-border: hsl(226, 15%, 22%);
+
+    --table-border-color: #111;
+    --table-header-bg: #222;
+    --table-alternate-bg: #444;
+
+    --searchbar-border-color: #aaa;
+    --searchbar-bg: #aeaec6;
+    --searchbar-fg: #000;
+    --searchbar-shadow-color: #aaa;
+    --searchresults-header-fg: #5f5f71;
+    --searchresults-border-color: #5c5c68;
+    --searchresults-li-bg: #242430;
+    --search-mark-bg: #a2cff5;
+
+    /* pre code */
+    --code-btn-bg: #333;
+    --code-btn-color: #ddd;
+    --code-btn-color-hover: #fff;
+}
