@@ -374,8 +374,9 @@ ul#searchresults span.teaser em {
     bottom: 0;
     left: 0;
     right: 0;
-    height: 100vh;
+    height: calc(100vh - 55px);
     padding: 0px 0px 10px 10px;
+    scrollbar-color: var(--scrollbar) var(--sidebar-bg);
 }
 .sidebar .sidebar-resize-handle {
     position: absolute;
