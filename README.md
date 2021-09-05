@@ -15,18 +15,16 @@
 
 - Create a book with the command `mdbook init`.
 
-  ```txt
+  ```vim
   mdbook init <directory>
   ```
 
-- Clone theme from github.
+- Add azaleabook theme 
 
-  ```txt
+  ```vim
   cd <directory>
-  git clone https://github.com/IrvanAhmadP/azaleabook-theme.git
+  git submodule add https://github.com/IrvanAhmadP/azaleabook-theme.git azaleabook-theme
   ```
-
-- Delete preview folder.
 
 - Config `book.toml`.
 
